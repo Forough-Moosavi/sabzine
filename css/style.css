@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "./top-bar.css";
+@import "./variable.css";
+.btn-success {
+    background-color: #2bce56 !important; /* رنگ جدید */
+    border-color: #2bce56 !important;
+}
+
+.text-success {
+    color: #2bce56 !important;
+}
+
+.bg-success {
+    background-color: #2bce56 !important;
+}
+.btn-outline-success {
+    color: #2bce56 !important; /* رنگ متن */
+    border-color: #2bce56 !important; /* رنگ حاشیه */
+	padding: 0.5rem  !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #2bce56 !important; /* رنگ پس‌زمینه هنگام هاور */
+    color: #fff !important; /* رنگ متن هنگام هاور */
+}
+.main-header__search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+}
+
+.main-header__search-icon {
+  color: var(--white-color);
+  font-size: 1.5rem;
+}
+
+.main-header__cart-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  background-color: #f0f2f7;
+}
+
+.main-header__cart-btn:hover {
+  color: #1e83f0;
+}
+.main-header__cart-icon {
+  color: var(--dark-color);
+  font-size: 1.5rem;
+  transition: all 400ms ease;
+}
